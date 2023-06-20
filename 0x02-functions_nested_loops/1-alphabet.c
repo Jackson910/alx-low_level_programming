@@ -4,13 +4,11 @@
  * print -alphabet - Make the alphabet
  * Return: 0 (success)
  */
-void print_alphabet(void)
+void print _alphabet(void)
 {
 	char c;
-
-	for(c = 'a'; c<= 'z'; c++)
-	{
-		_putchar(c);
+	for(c = 'a'; c <= 'z'; c++)
+	{_putchar(c);
 	}
 	_putchar('\n');
 }
