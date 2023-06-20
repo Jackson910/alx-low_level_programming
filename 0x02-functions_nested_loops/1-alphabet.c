@@ -4,7 +4,7 @@
  * print -alphabet - Make the alphabet
  * Return: 0 (success)
  */
-void print _alphabet(void)
+void print_alphabet(void)
 {
 	char c;
 	for(c = 'a'; c <= 'z'; c++)
